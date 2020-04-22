@@ -1,0 +1,466 @@
+@charset "UTF-8";
+/*
+Theme Name: Marketing Theme 3.0
+Author: izumikawa
+Version: 2.0
+*/
+
+
+body	{margin: 0;
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif}
+
+.container,.breadcrumbs	{max-width: 650px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+header + .container ,footer .container{
+	display: flex;
+	justify-content:space-between;
+	flex-direction: column-reverse;
+}
+
+/* 記事 */
+article	{margin-bottom: 40px;
+	overflow: hidden}
+
+article h1	{
+	margin: 0;
+	font-weight: normal}
+
+article h1 a	{color: #000000;
+	text-decoration: none}
+
+
+/* 記事の付加情報 */
+.postinfo	{margin-top: 15px;
+	font-size: 14px}
+
+.postinfo a	{color: #000000;
+	text-decoration: none}
+
+.postinfo .postcat	{margin-left: 20px}
+
+.postinfo .postcom	{margin-left: 20px}
+
+.postinfo i	{color: #888888}
+
+
+/* 前後の記事へのリンク */
+.pagenav a	{padding: 5px 10px;
+	border: solid 1px #cccccc;
+	border-radius: 10px;
+	color: #666666;
+	font-size: 12px;
+	text-decoration: none}
+
+.pagenav .old a	{float: left}
+
+.pagenav .new a	{float: right}
+
+.pagenav	{overflow: hidden;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	clear: both}
+
+
+/* ヘッダー */
+header	{margin-bottom: 40px;
+}
+
+header a,footer a	{color: hsl(41, 22%, 71%);
+	text-decoration: none}
+
+.siteinfo	{overflow: hidden;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	background-color: #ffffff;
+	color: #595959}
+
+.siteinfo a	{color: #595959}
+
+.siteinfo h1	{float: left;
+	margin: 0;
+	font-family: Volkhov, sans-serif;
+	font-size: 2.3em}
+
+.siteinfo p	{
+	font-family: serif;
+	float: right;
+	margin: 5px 0;
+	font-size: .9em;
+	letter-spacing: 1em;}
+
+
+/* ナビゲーションメニュー */
+nav{
+	background-color: #595959;
+	color: #ffffff
+}
+
+nav ul	{list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	overflow: hidden}
+
+nav li	{float: left;
+	margin-right: 15px}
+
+nav li a	{display: block;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: solid 5px transparent}
+
+nav li a:hover	{border-bottom-color: hsl(41, 22%, 71%)}
+
+nav li.current-menu-item a
+	{border-bottom-color: hsl(41, 22%, 71%)}
+
+
+/* フッター */
+footer	{margin-top: 40px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	background-color: #595959;
+	color: #ffffff}
+
+
+/* 本文中の画像 */
+article img	{border: none;
+	max-width: 100%;
+	height: auto}
+
+.aligncenter	{display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto}
+
+.alignright	{float: right;
+	margin-bottom: 30px;
+	margin-left: 30px}
+
+.alignleft	{float: left;
+	margin-bottom: 30px;
+	margin-right: 30px}
+
+.wp-caption	{max-width: 100%}
+
+.wp-caption-text	{margin: 0;
+	color: #666666;
+	font-size: 14px;
+	text-align: center}
+
+
+/* メニュー */
+.side-nav ul	{margin: 0;
+	padding: 0;
+	list-style: none}
+	
+	.side-nav li li > div i{
+    float: right;
+    display: block;
+    line-height: 3.6em;
+    color: #aca593;
+    font-weight: 100;
+    font-size: 0.7em;
+    margin-right: 1em;
+
+	}
+	.side-nav li li ,#custom_html-2 .textwidget{
+		border: 1px solid #837f76;
+		background-color: #e8e8e8;
+		margin-bottom: 10px;
+    padding-left: 1em;
+    background-position-x: 4px;
+	}
+		#custom_html-2 .textwidget{width: 267px;
+			box-sizing: border-box;
+			padding: 0 20px;
+			margin-bottom: 0;
+			background-position-x:4px,160px ;
+			background-repeat: no-repeat,no-repeat;
+			background-size: auto,contain;
+		}
+
+		.side-nav li li:before {content:" " ;
+		}
+	
+.side-nav .widget	{margin-bottom: 30px;
+	padding: 20px 20px 20px 0;
+}
+#custom_html-2{margin-bottom: 0}
+
+.side-nav .widgettitle	{
+	margin-top: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 14px;
+    background: #595959;
+    padding: 6px;
+    text-align: center;
+    letter-spacing: 1em;
+		font-family: serif;
+	}
+
+.side-nav li a	{display: inline-block;
+	padding: 10px 5px;
+	color: #666666;
+	font-size: 14px;
+	text-decoration: none;
+	white-space: pre;
+}
+
+.side-nav li li > div:hover	{background-color: #ffffff}
+
+.usermenu{text-align: right;}
+.login a{color:#1177d1;}
+/* 見出し */
+
+
+.archive-title i	{padding: 15px;
+	color: #595959}
+
+	.page-seperate {
+		background-repeat: no-repeat;
+		background-position:  center bottom;
+    padding-bottom: 56px;
+    margin: -10px;
+}
+.post-title {font-size: 1.4em;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	padding: 5px 0 ;
+	color: #595959;
+	margin-bottom: 1.5em;
+}
+.archive-title h2{text-align: center;font-size: 1.2em;}
+.content-title a{ 
+	color: #77756e;
+	text-decoration: none;
+	font-size: 1em;
+}
+.content-title a:hover{
+	color: #59659f;
+	} 
+.trance{transform: rotate(30deg);}
+
+/* コメント投稿フォーム */
+#respond p	{margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 12px}
+
+#respond label	{font-size: 14px}
+
+#respond input,
+#respond textarea	{width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	border: solid 1px #595959;
+}
+
+#respond input[type="submit"]
+{width: 200px;
+	padding: 10px;
+	border: none;
+	background-color: #595959;
+	-webkit-appearance: none;
+	cursor: pointer;
+	color: #fff;
+}
+	
+
+#respond input[type="submit"]:hover
+	{background-color: #898989}
+
+#respond .required	{color: #ff0000}
+
+
+/* コメント */
+#comments footer	{background: none;
+	margin: 0;
+	color: #000000;
+	font-size: 12px}
+
+#comments footer a	{color: #000000}
+
+#comments footer div	{display: inline}
+
+#comments ul	{list-style: none;
+	margin: 0;
+	padding: 0}
+
+#comments article	{border: dotted 1px #aaaaaa;
+	margin-bottom: 10px;
+	padding: 10px 20px 20px 20px}
+
+#comments .comment-content	{margin-left: 30px}
+
+
+/* お問い合わせフォーム */
+.mw_wp_form input,
+.mw_wp_form textarea	{ 
+	padding: 5px;
+	box-sizing: border-box;
+	border: solid 1px #595959;
+	font-size: 1em;
+	margin: 1em;
+	width: 60%
+}
+.mw_wp_form  label{display: inline-block; 
+	width: 8em;
+}
+.mw_wp_form  label:nth-of-type(3){vertical-align: top;
+	margin-top: 16px;
+}
+
+.mw_wp_form input[type="submit"]
+	{width: 200px;
+	padding: 10px;
+	border: none;
+	background-color: #595959;
+	cursor: pointer;
+		color:#fff;
+}
+
+.mw_wp_form input[type="submit"]:hover
+	{background-color: #898989}
+
+.nav-unshown {
+	display:none;
+}
+
+/* メディアクエリの設定 */
+@media (max-width: 960px) {
+		.mw_wp_form input, .mw_wp_form textarea	{ 
+			width: auto;
+			display: block;
+		}
+}
+@media (max-width: 630px) {
+		.mw_wp_form input, .mw_wp_form textarea	{ 
+			width: 88%;
+		}
+}
+
+
+@media (min-width: 768px) {
+
+/* ２段組 */
+	.container,.breadcrumbs	{
+		max-width: 1110px;
+		overflow: hidden;
+	}
+	header + .container{
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+	
+	footer .container{
+		flex-direction: row;
+		
+	}
+	
+	
+	.contents	{ 
+		margin-left: 20px; 
+		margin-right: 20px; 
+		width: 100%;		
+	}
+	
+	.side-nav	{ flex-basis: 300px; }
+	
+	/* ナビゲーションメニュー */
+	nav li	{margin-right: 40px}
+	
+}
+
+
+@media (min-width: 970px) {
+
+	#custom_html-2 .textwidget { width: 100%}
+}
+
+@media (max-width: 768px) {
+	#custom_html-2 .textwidget { width: 100%;}
+	.siteinfo h1,.siteinfo p{text-align: center;float: none}
+	
+	/* menu */
+	.menu-menu-1-container{position: relative}
+	
+	/*アイコンのスペース*/
+	#nav-open {
+		display: inline-block;
+		width: 30px;
+		height: 38px;
+		vertical-align: middle;
+	}
+	
+	/*ハンバーガーアイコン*/
+		
+		#nav-open span, #nav-open span:before, #nav-open span:after {
+			position: absolute;
+			height: 3px;/*線の太さ*/
+			width: 25px;/*長さ*/
+			border-radius: 3px;
+			background: #fff;
+			display: block;
+			content: '';
+			cursor: pointer;
+			margin-top: 10px;
+		}
+		#nav-open span:before {
+			bottom: -8px;
+		}
+		#nav-open span:after {
+			bottom: -16px;
+		}
+
+		/*閉じる用の薄黒カバー*/
+		#nav-close {
+			display: none;/*はじめは隠しておく*/
+			position: fixed;
+			z-index: 99;
+			top: 0;/*全体に広がるように*/
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: black;
+			opacity: 0;
+			transition: .3s ease-in-out;
+		}
+
+		/*中身*/
+		#nav-content {
+			overflow: auto;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 9999;/*最前面に*/
+			width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+			max-width: 330px;/*最大幅（調整してください）*/
+			height: 100%;
+			background: #6e6060;/*背景色*/
+			transition: .3s ease-in-out;/*滑らかに表示*/
+			-webkit-transform: translateX(-105%);
+			transform: translateX(-105%);/*左に隠しておく*/
+		}
+
+		/*チェックが入ったらもろもろ表示*/
+		#nav-input:checked ~ #nav-close {
+			display: block;/*カバーを表示*/
+			opacity: .5;
+		}
+
+		#nav-input:checked ~ #nav-content {
+			-webkit-transform: translateX(0%);
+			transform: translateX(0%);/*中身を表示（右へスライド）*/
+			box-shadow: 6px 0 25px rgba(0,0,0,.15);
+			padding-top: 3em;
+		}
+		nav li{  
+			float: none;
+			margin-left: 15px;
+		}
+
+}
