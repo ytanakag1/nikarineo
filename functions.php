@@ -4,13 +4,15 @@ $dir = get_template_directory();
 
 function twpp_enqueue_styles() {
   $uri = get_template_directory_uri();
-  wp_enqueue_style( 'bootstrap', '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css' );
-  wp_enqueue_style( 'font', '//fonts.googleapis.com/css?family=Volkhov&display=swap' );
+  wp_enqueue_style( 'icon', '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css' );
+  wp_enqueue_style( 'bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' );
   wp_enqueue_style( 'main-style', get_stylesheet_uri() );
-  wp_enqueue_script('jquery', '//code.jquery.com/jquery-1.12.4.min.js');
+  
+  wp_enqueue_script('jquery', 'code.jquery.com/jquery-3.5.0.js');
+  wp_enqueue_script('minjs', '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js');
+  wp_enqueue_script('bundle', '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js');
 }
 add_action( 'wp_enqueue_scripts', 'twpp_enqueue_styles' );
-
 
 //ウィジェット
 
