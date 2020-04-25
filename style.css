@@ -88,7 +88,9 @@ header a,footer a	{color:#fff;
 	margin: 0;	height: 60px; 
 	font-size: 0.3em;
 }
-.siteinfo h1 img{ 
+.siteinfo h1 img
+,.siteinfo h2 img
+{ 
 		height: 60px; 
 		margin: 0 12px;
 	 }
@@ -507,12 +509,79 @@ padding: 12px 42px;
 	padding-left: 24px;
 }
 
+.mb60{margin-bottom: 60px;}
+.radius{
+	background-color: #f2f2f2;
+	border-radius: 18px;
+	box-shadow: 9px 9px 1px #ccc;
+}
+
+.support{
+	color: #dd697d;
+    font-weight: 900;
+    font-size: 2em;
+    margin: 24px 0 12px
+}
+
+.jujitu{    padding: 0 24px;
+	font-size: 1.05em;
+}
+
+.qand{border: solid 2px #feb6c2;
+	background-color: #fff;
+	text-align: left;     padding: 22px 14px;
+}
+.qand dt{float: left; font-size: 2em;}
+.qand dd{     min-height: 3em;    padding: 0.6em 0 0 2.7em;
+}
+
+hr.dash{background-image:url( images/border-dashed.png);
+	height: 4px;
+	border: none;
+}
+
+
+
+
+
+
 /* フッター */
 footer {margin-top: 40px;
 	padding-top: 14px;
 	padding-bottom: 14px;
-	background-color: #595959;
-	color: #ffffff}
+}
+footer nav{
+	background-color: #333;
+	color: #fff;
+}
+footer nav ul{ padding-left: 174px;
+}
+footer nav a:hover{
+	color: #fff;
+}
+footer a.moushikomi-btn{position: static;
+	display: block;
+    width: 453px;
+    font-weight: 100;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+}
+footer .siteinfo .free-call  {color: #dd697d;}
+ul.privacy li:not(:nth-of-type(3)){
+	border-right: solid 2px ;
+}
+ul.privacy li{
+	padding:  0 40px 0 20px;
+}
+
+ul.privacy{ color: #333;
+	list-style-type:none;
+	justify-content: space-evenly;
+}
+
+footer .copy{    letter-spacing: 0;
+	display: block;
+}
 
 
 /* 本文中の画像 */

@@ -433,85 +433,71 @@
 					<p>※転用日は、お申し込み日から2日以降となります。詳しくは光コラボレーション事業者様にご確認ください。
 				</section>
 
+						<p class="tc"><img  src="<?=$img?>angle-1t.png" alt="" class="anglet"></p>
 
-					<p class="tc"><img  src="<?=$img?>angle-1t.png" alt="" class="anglet"></p>
-				<section>
-					<h5>お手続き完了</h5>
-					<small></small>
-				</section>	
+					<section class="tc mb60">
+						<h3 class="bold">お手続き完了</h3>
+						<small>光ネオEXA(光コラボレーション事業者)とNTT東日本の間で、手続きを行います。その後、転用完了となります。</small>
+					</section>	
+
+				</div> <!--row-->
+			</div> <!--col-11-->
+
+			<div class="row mt30  pd-lr30 mb60">
+				<div class="col-11 mauto radius">
+					<h4 class="tc support">NTT&株式会社クリエイトのWサポート</h4>
+					<p class="jujitu">NTTフレッツ光ファイバー時、NTTの所有する機器、ONU等はNTT対応、それ以外の部分は未対応となっております。<br> 光ネオEXAご利用時、今まで通り、NTTの所有する機器、ONU党はNTT対応と変わらず、それ以外の部分の対応は弊社<br> クリエイト対応とする事が可能となり、クリエイトとNTT、2社でのフォローサポートが可能となります。<br> 以前から不具合が生じた際にお願されている業者様等含めましたら、その業者様含め3者間サポートとなりますので更に<br> 充実します。</p>
+				</div>
 			</div>
+
+
+			<div class="col-12 mauto tc mt30 mb60">
+				<h2><img src="<?=$img?>h2omousikomi.png" alt="光ネオEXAお申し込み"></h2>
+				<p><img src="<?=$img?>44-netkara-moushikomi.png" alt="光ネオEXAお申し込み">
+				<a class="pdf-download moushikomi-btn" href=""><span>お申込み</span><strong class="fa fa-angle-right" aria-hidden="true" style="float: right;"></strong></a>
+				</p>
+			</div> <!--col-12-->
+
+
+		<div class="pink" style="
+    padding: 20px 120px;">
+				<h2 class="tc mt30"><img src="<?=$img?>h2-yokuaru.png" alt="よくある質問"></h2>
+			<div class="col-11 mauto qand mt30">
+				<dl>
+					<dt>Q.</dt> <dd>「フレッツ光」と「光コラボレーションモデル」（光コラボ）の違いは何ですか？</dd>
+					<dt>A.</dt> <dd>「フレッツ光」は回線事業者がNTT東日本/西日本で、プロバイダは別途契約が必要になります。
+「光コラボ」では回線契約とプロバイダ契約がセットになって光コラボ事業者との契約に一本化されます。そのため、光コラボ事業者は独自の料金体系を組む事ができ、自社サービスと光回線を組み合わせた新しいサービスを提供することができます。
+</dd>
+				</dl>
+				<hr class="dash">
+				<dl>
+					<dt>Q.</dt> <dd>「フレッツ光」を利用していなくても「光コラボ」は利用できますか？</dd>
+					<dt>A.</dt> <dd>フレッツ光の対応エリアであれば、「光コラボ」は新規でご利用いただけます。</dd>
+				</dl>
+				<hr class="dash">
+				<dl>
+					<dt>Q.</dt> <dd>「フレッツ光」から「光コラボ」に切り替えて利用することはできますか？</dd>
+					<dt>A.</dt> <dd>利用可能です。その場合は「転用」手続きが必要です。転用手続きには「転用承諾番号」が必要となり、フレッツ光のご契約者ご本人からの転用番号の取得が必要です。</dd>
+				</dl>
+				<hr class="dash">
+				<dl>
+					<dt>Q.</dt> <dd>「フレッツ光」から「光コラボ」に転用すると利用できなくなるNTTサービスはありますか？</dd>
+					<dt>A.</dt> <dd>「転用」手続きでは、ご利用環境を変更することなく契約形態のみ変更が可能です。光コラボ事業者にて取り扱いのないオプションサービスはNTT東日本/西日本より直接提供されます。</dd>
+				</dl>
+				<hr class="dash">
+				<dl>
+					<dt>Q.</dt> <dd>「光コラボ」では導入工事や故障修理等は光コラボ事業者が行いますか？</dd>
+					<dt>A.</dt> <dd>導入工事や故障修理等はNTT東日本/西日本が行いますが、ご連絡の窓口は光コラボ事業者となります。</dd>
+				</dl>
+			
+
 			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<?php if(have_posts()): while(have_posts()): 
-	the_post(); ?>
-
-	<article <?php post_class(); ?>>
-
-	<?php the_content(); ?>
-
-		<?php if( is_single() ): ?>
-		<div class="pagenav">
-			<span class="old">
-			<?php previous_post_link( 
-			'%link', 
-			'<i class="fa fa-chevron-circle-left"></i> %title' 
-			); ?>
-			</span>
-
-			<span class="new">
-			<?php next_post_link( 
-			'%link', 
-			'%title <i class="fa fa-chevron-circle-right"></i>' 
-			); ?>
-			</span>
 		</div>
-		<?php endif; ?>
-	</article>
-
-	<?php endwhile; endif; ?>
 
 
-	<?php if( $wp_query->max_num_pages > 1 ): ?>
-	<div class="pagenav">
-		<span class="old">
-		<?php next_posts_link( '<i class="fa fa-chevron-circle-left"></i> 古い記事' ); ?>
-		</span>
 
-		<span class="new">
-		<?php previous_posts_link( '新しい記事 <i class="fa fa-chevron-circle-right"></i>' ); ?>
-		</span>
-	</div>
-	<?php endif; ?>
 
 	</div> <!-- contents -->
-
-
-
-	<?php get_sidebar() ?>
-
 
 
 </div> <!-- container -->
