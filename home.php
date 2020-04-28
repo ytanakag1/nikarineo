@@ -3,7 +3,7 @@
 	$img = $uri . '/images/';
 	get_header(); ?>
 
-<div class="container pd0">
+
 	<div class="contents">
 
 	<h2 class="pink"><img src="<?=$img?>h2hikarineo.png" alt="光ネオEXAとは?"></h2>
@@ -46,7 +46,7 @@
 		<div class="col-12 mauto tc">
 			<h2><img src="<?=$img?>h2omousikomi.png" alt="光ネオEXAお申し込み"></h2>
 			<p><img src="<?=$img?>44-netkara-moushikomi.png" alt="光ネオEXAお申し込み">
-			<a class="pdf-download moushikomi-btn" href=""><span>お申込み</span><strong class="fa fa-angle-right" aria-hidden="true" style="float: right;"></strong></a>
+			<a class="pdf-download moushikomi-btn" href="/inquiry/"><span>お申込み</span><strong class="fa fa-angle-right" aria-hidden="true" style="float: right;"></strong></a>
 			</p>
 
 			<p class="figure mt30"><img src="<?=$img?>45-erabareteiru.png" alt="選ばれている3つのポイント"></p>
@@ -54,7 +54,7 @@
 
 
 		<div class="col-11 mauto tc">
-			<h3 class="" style="margin-bottom: 20px">
+			<h3 id="canpain" style="margin-bottom: 20px">
 				<img src="<?=$img?>h3canpein.png" alt="キャンペーン">
 			</h3>
 			<p class="bd pr"><img src="<?=$img?>tauwaryo20.png" alt="通話料合計金額の10%割引">
@@ -71,7 +71,7 @@
 		<div class="col-12 mauto pink" style="padding-top: 8px;">
 			<a class="pdf-download" href="" style="position: absolute; right: 94px;
     top: 30px;"><strong class="fa fa-angle-double-right" aria-hidden="true"></strong><span>NTT西日本の料金はこちら</span></a>
-			<h3 class="mt30" style="margin-bottom: 20px">
+			<h3 class="mt30" id="ryokin" style="margin-bottom: 20px">
 				<img src="<?=$img?>h3ryokin.png" alt="料金">
 			</h3>
 
@@ -279,7 +279,7 @@
 
 
 		<div class="col-12 mauto" style="padding-top: 8px;">
-			<h3 class="mt30 tc kaitsumade" style="margin-bottom: 20px">
+			<h3 id="kaitsumade" class="mt30 tc kaitsumade" style="margin-bottom: 20px">
 
 				<img src="<?=$img?>hikari-neo.png" alt="光ロゴ">
 				<img src="<?=$img?>h3-kaitsumade.png" alt="開通までの流れ">
@@ -454,14 +454,14 @@
 			<div class="col-12 mauto tc mt30 mb60">
 				<h2><img src="<?=$img?>h2omousikomi.png" alt="光ネオEXAお申し込み"></h2>
 				<p><img src="<?=$img?>44-netkara-moushikomi.png" alt="光ネオEXAお申し込み">
-				<a class="pdf-download moushikomi-btn" href=""><span>お申込み</span><strong class="fa fa-angle-right" aria-hidden="true" style="float: right;"></strong></a>
+				<a class="pdf-download moushikomi-btn" href="/inquiry/"><span>お申込み</span><strong class="fa fa-angle-right" aria-hidden="true" style="float: right;"></strong></a>
 				</p>
 			</div> <!--col-12-->
 
 
 		<div class="pink" style="
     padding: 20px 120px;">
-				<h2 class="tc mt30"><img src="<?=$img?>h2-yokuaru.png" alt="よくある質問"></h2>
+				<h2 id="yokuaru" class="tc mt30"><img src="<?=$img?>h2-yokuaru.png" alt="よくある質問"></h2>
 			<div class="col-11 mauto qand mt30">
 				<dl>
 					<dt>Q.</dt> <dd>「フレッツ光」と「光コラボレーションモデル」（光コラボ）の違いは何ですか？</dd>
@@ -500,6 +500,5 @@
 	</div> <!-- contents -->
 
 
-</div> <!-- container -->
 
 <?php get_footer(); ?>

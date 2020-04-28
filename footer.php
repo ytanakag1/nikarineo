@@ -6,7 +6,7 @@
     </div>
   </nav>
 
-  <div class="row siteinfo col-11 mauto mt30">
+  <div class="row siteinfo mauto mt30">
     <div class="col-6 tc">
       <span class="free-call"><img src="http://ad.zapto.org/wp-content/themes/nikarineoexa/images/tuwa-muryop.png" alt="tel:03-6868-8577"><strong>03-6868-8577</strong></span>
     </div>
@@ -16,9 +16,9 @@
 
     <section class="col-12 eee mt30">
       <ul class="privacy fl col-10 mauto bold mb60">
-        <li><a href="">会社概要</a></li>
-        <li><a href="">特定商取法に基づく表記について</a></li>
-        <li><a href="">プライバシーポリシー</a></li>
+        <li><a href="http://create-inc.jp/#about">会社概要</a></li>
+        <!-- <li><a href="http://create-inc.jp/#about">特定商取引法に基づく表記について</a></li> -->
+        <li><a href="http://create-inc.jp/privacy/">プライバシーポリシー</a></li>
       </ul>
       <h2 class="tc">
         <img src="http://ad.zapto.org/wp-content/themes/nikarineoexa/images/with-ntt-west.png" alt="NTT西日本">
@@ -39,6 +39,8 @@
     <small><a href="<?php bloginfo( 'rss2_url' ); ?>"><i class="fa fa-rss-square"></i> RSS</a></small>
   </div>
 </footer>
+
+</div> <!-- container -->
 
 <?php wp_footer(); ?>
 </body>
