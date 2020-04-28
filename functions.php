@@ -2,6 +2,20 @@
 $uri = get_template_directory_uri(); 
 $dir = get_template_directory(); 
 
+$ua = $_SERVER["HTTP_USER_AGENT"];
+if (stripos($ua, 'iphone') !== false || // iphone
+  stripos($ua, 'ipod') !== false || // ipod
+  stripos($ua, 'mobile') !== false || // android
+  stripos($ua, 'mobile') !== false || // windows phone
+  stripos($ua, 'mobile') !== false || // firefox phone
+  stripos($ua, 'mobile') !== false || // blackberry 10
+  stripos($ua, 'blackberry') !== false   // blackberry
+) {  //mobile
+  $isSmartPhone = true;
+} else {  //pc
+  $isSmartPhone = false;
+}  
+
 function twpp_enqueue_styles() {
   $uri = get_template_directory_uri();
   wp_enqueue_style( 'icon', '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css' );

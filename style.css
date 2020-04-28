@@ -588,6 +588,7 @@ footer a.moushikomi-btn
 }
 footer .siteinfo .free-call
 ,.inquiry .siteinfo .free-call
+,.flowbottom .siteinfo .free-call
 	{color: #dd697d;
 	}
 ul.privacy li:not(:nth-of-type(2)){
@@ -605,7 +606,24 @@ ul.privacy{ color: #333;
 footer .copy{    letter-spacing: 0;
 	display: block;
 }
+.flowbottom p{
+	font-size: 1.5em;
+	margin: 2px auto;
+	line-height: 2em;
+	color: #dd697d;
+	text-align: center;
+}
 
+	.flowbottom{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+	text-align: center;
+	border: solid 1px #aaa;
+	background-color: #f2f2f2;
+	margin: auto;
+}
 
 /* 本文中の画像 */
 article img	{border: none;
