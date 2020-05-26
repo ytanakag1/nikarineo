@@ -1,7 +1,8 @@
 <?php 
 	global $uri; ///wp-content/themes/nikarineoexa"
 	$img = $uri . '/images/';
-	get_header(); ?>
+	get_header(); 
+	?>
 
 
 	<div class="contents">
@@ -89,7 +90,140 @@
 			<div class="tab-content p-2 figure mytabs">
 
 				<div role="tabpanel" class="tab-pane active fade show" id="kodate">
-					<p class="pbd"><img src="<?=$img?>/tab-riyouryo.png" alt="月額利用料"></p>
+					<div class="pbd">
+
+
+
+
+			<h4 class="getugak"><span>月額利用料<small>(月初日適用の場合)</small></span> 東日本版</h4>						
+			<table class="ryokinm">
+					<tbody>
+						<tr>
+							<td colspan="2" rowspan="2" style="width:35%; font-size: 1em;">インターネット接続サービス</td>
+							<td style="">[フレッツ光]の利用年数</td>
+							<td style="background: #e06000;color: #fff;border-right: solid 2px #e90a01">1年目	</td>
+							<td class="pr" style="background: #e06000;color: #fff;border-right: solid 2px #e90a01">2年目
+								<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left: 149px;" alt=""></td>
+							<td>3年目以降~</td>
+						</tr>
+						<tr>
+							<td style="font-size: 1em;padding: 0 17px;line-height: 1.1em;">各種割引サービスを適用しない場合</td>
+							<td colspan="2" style="background: #e06000;color: #fff;border-right: solid 2px #e90a01">(2年割)</td>
+							<td> </td>
+						</tr>
+					
+						<tr>
+							<td colspan="2" class="pr bgf" style="letter-spacing: -1px;text-align: left;background: #fffbf0;">
+								<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+								<span>ファミリーハイスピードタイプ／</span><br>
+								<span style="margin-left:135px;">ファミリータイプ</span>
+							</td>
+							<td>5,200</td>
+							<td class="bgf prc-red">4,500</td>
+							<td class="bgf prc-red" style="border-right: solid 2px #e90a01">4,500</td>
+							<td>5,200</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="pr bgf " style="letter-spacing: -1px;text-align: left;background: #fffbf0;">
+								<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+								ファミリー・ギガラインタイプ<br>
+							</td>
+							<td>5,400</td>
+							<td class="bgf prc-red">4,700</td>
+							<td class="bgf prc-red" style="border-right: solid 2px #e90a01">4,700</td>
+							<td>5,400</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="pr bgf" style="letter-spacing: -1px;text-align: left;background: #fffbf0;">
+								<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+								ファミリー・ギガスマートタイプ<br>
+							</td>
+							<td>5,700</td>
+							<td class="bgf prc-red">5,000</td>
+							<td class="bgf prc-red" style="border-right: solid 2px #e90a01">5,000</td>
+							<td>5,700</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+
+
+				<h4 class="getugak"><span>月額利用料<small>(月初日適用の場合)</small></span>西日本版</h4>						
+
+				<table class="ryokinm">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="3" style="width:31%; font-size: 1em;">FTTHアクセスサービス</td>
+						<td rowspan="3" style="width:8%;text-align:.9em;font-size: .85em;">各種割引<br>サービスを<br>適用しない場合</td>
+						<td colspan="8" style=" background: #dd217f; color: #fff;">[光もっと割]のご利用年数 ( )は割引適用期間</td>
+					</tr>
+					<tr>
+						<td class="fpr">(2年割)
+							<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left:67px;" alt="">
+						</td>
+						<td colspan="3" class="pr">(3年割)
+							<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left:213px;" alt="">
+						</td>
+						<td colspan="3" class="pr">(3年割)
+							<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left:213px;" alt="">
+						</td>
+						<td class="pr">(3年間毎)
+							<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left:67px;" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td>1-2年目</td>
+						<td>3年目</td>
+						<td>4年目</td>
+						<td>5年目</td>
+						<td>6年目</td>
+						<td>7年目</td>
+						<td>8年目</td>
+						<td>9年目以降~</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="pr bgf" style="text-align:left;  padding-left: 84px;    letter-spacing: -1px;">
+						<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m" style="position: absolute;top: 17px;left: 2px;">
+			ファミリー･スーパーハイスピードタイプ 隼／<br>
+			ファミリー･ハイスピードタイプ／<br>
+			ファミリータイプ<br>
+				</td>
+						<td>3,250</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+		
+					<tr>
+						<td colspan="2" class="bgf" style=" text-align: left;">
+						<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+						ファミリータイプ
+						</td>
+						<td>3,250</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				
+				</tbody>
+			</table>
+
+
+
+
+					</div>
+					
 					<ul>
 						<li>●「光ネオEXA」は株式会社クリエイトが提供する光コラボサービスです。光コラボとはNTT東日本、NTT西日本より光回線の提供を受けた光コラボ事業者が、フレッツ光の品質をそのままに独自の施策をプラスしたサービスです。 </li> 
 						<li>●お客様の利用環境を変えずに契約形態のみを変更する「転用手続きを実施します。 </li> 
@@ -103,7 +237,256 @@
 				</div>
 
 				<div role="tabpanel" class="tab-pane fade" id="mansion">
-					<p class="pbd"><img src="<?=$img?>/tab-mansion.png" alt="マンション"></p>
+					<div class="pbd">
+					
+					<h4 class="getugak"><span>月額利用料<small>(月初日適用の場合)</small></span>東日本版</h4>						
+		
+<table class="ryokinm mns" style="
+    width: 77%;">
+	<tbody>
+		<tr>
+			<td colspan="2" style="
+    height: 4em;">インターネット接続サービス</td>
+			<td>基本料金</td>
+		</tr>
+		<tr>
+			<td rowspan="3">
+			<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+				マンションタイプ /
+				<span>マンション・ハイスピードタイプ</span>
+			</td>
+			<td>プラン1</td>
+			<td>3,250</td>
+		</tr>
+		<tr>
+		<td>プラン2</td>
+			<td>2,850</td>
+		</tr>
+		<tr>
+			<td>ミニ</td>
+			<td>3,850</td>
+		</tr>
+		<tr>
+			<td rowspan="3">
+				<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+				マンション・ギガラインタイプ
+			</td>
+			<td>プラン1</td>
+			<td>3,450</td>
+		</tr>
+		<tr>
+		<td>プラン2</td>
+			<td>3,050</td>
+		</tr>
+		<tr>
+			<td>ミニ</td>
+			<td>4,050</td>
+		</tr>
+		<tr>
+			<td rowspan="3">
+				<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+				ギガマンション・スマートタイプ
+			</td>
+			<td>プラン1</td>
+			<td>3,750</td>
+		</tr>
+		<tr>
+		<td>プラン2</td>
+			<td>3,350</td>
+		</tr>
+		<tr>
+			<td>ミニ</td>
+			<td>4,350</td>
+		</tr>
+	</tbody>
+</table>					
+	<small style="
+    text-align: left; display: block;">※マンションタイプのアクセスライン料金は変更無し。</small>
+					
+					
+					
+<h4 class="getugak"><span>月額利用料<small>(月初日適用の場合)</small></span>西日本版</h4>						
+	
+<table class="ryokinm mns">
+	<tbody>
+		<tr>
+			<td colspan="2" rowspan="3">FTTHアクセスサービス</td>
+			<td rowspan="3"  style=" line-height: 1.1em;">各種割引<br>サービスを<br>適用しない場合</td>
+			<td colspan="8"style=" background: #dd217f; color: #fff;">[光もっと割]のご利用年数 ( )は割引適用期間</td>
+		</tr>
+		<tr>
+			<td class="pr">(2年割)
+			<img src="<?=$img?>circl-t16.png" class="circle-t" style=" left: 59px;" alt=""></td>
+			<td colspan="3" class="pr">(3年割)
+			<img src="<?=$img?>circl-t16.png" class="circle-t" style=" left: 188px;" alt=""></td>
+			<td colspan="3" class="pr">(3年割)
+			<img src="<?=$img?>circl-t16.png" class="circle-t" style=" left: 188px;" alt=""></td>
+			<td class="pr">(3年間毎)
+			<img src="<?=$img?>circl-t16.png" class="circle-t" style=" left: 66px;" alt=""></td>
+		</tr>
+		<tr>
+			<td class="pr">1-2年目
+			</td>
+			<td>3年目</td>
+			<td>4年目</td>
+			<td>5年目</td>
+			<td>6年目</td>
+			<td>7年目</td>
+			<td>8年目</td>
+			<td>9年目以降~</td>
+		</tr>
+		<tr>
+			<td rowspan="3">
+      <img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+      <strong class="hoshi2">※</strong><br>
+マンション･スーパーハイスピードタイプ 隼／<br>
+マンション･スーパーハイスピードタイプ[ひかり配線方式]<br>
+マンションタイプ[ひかり配線方式][VDSL方式]<br>
+<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">  マンションタイプ[VDSL方式] 
+   </td>
+			<td>プラン1</td>
+			<td>3,250</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>プラン2</td>
+			<td>2,850</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>ミニ</td>
+			<td>3,850</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="3">
+      <strong class="hoshi2">※</strong><br>
+      <img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+      マンションタイプ[LAN方式] 
+      </td>
+			<td>プラン1</td>
+			<td>3,250</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>プラン2</td>
+			<td>2,850</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>ミニ</td>
+			<td>3,850</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="2">
+      <img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+      <strong class="hoshi2">※</strong><br>
+      マンションタイプ[ひかり配線方式] 
+      </td>
+			<td>プラン1</td>
+			<td>3,450</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>プラン2</td>
+			<td>3,050</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="2">
+      <img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+      <strong class="hoshi2">※</strong><br>
+      マンションタイプ[LAN方式] 
+      </td>
+			<td>プラン1</td>
+			<td>3,450</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>プラン2</td>
+			<td>3,050</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>		
+					
+					
+					
+					
+					
+					
+					</div>
 					<ul>
 					 <li>●インターネットなどに接続する場合は、別途プロバイダー利用料などが必要となります。
 					 </li> 
@@ -117,19 +500,19 @@
 
 				<div role="tabpanel" class="tab-pane fade" id="option">
 					<p class="pbd">
-					<a href="https://flets.com/osa/naoseru/" target="_blank" rel="noopener noreferrer">	<img src="<?=$img?>/tab-option-naoseru.png" alt="なおせーる" style="
+					<a href="https://flets.com/osa/naoseru/" target="_blank" rel="noopener noreferrer">	<img src="<?=$img?>tab-option-naoseru.png" alt="なおせーる" style="
     display: block;
     margin: auto;
     width: 300px;"></a>
-					<a href="https://www.hikaritv.net/" target="_blank" rel="noopener noreferrer">	<img src="<?=$img?>/tab-option-hikaritv.png" alt="ひかりTV" style="
+					<a href="https://www.hikaritv.net/" target="_blank" rel="noopener noreferrer">	<img src="<?=$img?>tab-option-hikaritv.png" alt="ひかりTV" style="
     display: inline-block;
     width: 290px;
     margin: 40px 60px;"></a>
-					<a href="https://www.premiumtv.jp/" target="_blank" rel="noopener noreferrer">	<img src="<?=$img?>/tab-option-puremiamtv.png" alt="プレミアムTV" style="
+					<a href="https://www.premiumtv.jp/" target="_blank" rel="noopener noreferrer">	<img src="<?=$img?>tab-option-puremiamtv.png" alt="プレミアムTV" style="
     display: inline-block;
     width: 290px;
     margin: 40px 60px;"></a>
-					<a href="https://fletshikari-ntt.jp/" target="_blank" rel="noopener noreferrer">	<img src="<?=$img?>/tab-option-fretstv.png" alt="フレッツ・テレビ"></a>
+					<a href="https://fletshikari-ntt.jp/" target="_blank" rel="noopener noreferrer">	<img src="<?=$img?>tab-option-fretstv.png" alt="フレッツ・テレビ"></a>
 					
 					</p>
 				

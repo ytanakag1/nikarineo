@@ -15,7 +15,7 @@
 	<?php if(is_month()): ?>
 	<h1 class="post-title">
 		<i class="fa fa-clock-o"></i> 
-	<?php echo get_the_date( 'Y年n月' ); ?>に投稿した記事
+	<?php echo get_the_date( 'Y年n月' ); ?><p>に投稿した記事</p>
 	</h1>
 	<?php endif; ?>
 

@@ -311,10 +311,11 @@ color: #666;
 	margin-bottom: 0;
 }
 
-
+.tab-pane table {width: 100%;}
 .tab-pane table , .tab-pane td,.tab-pane th {
 	border: 1px solid #595959;
-	border-collapse: collapse; width: 100%;
+	border-collapse: collapse; 
+	
 }
 .tab-pane table:nth-of-type(2) td
 ,.tab-pane table:nth-of-type(2) th
@@ -324,7 +325,6 @@ color: #666;
 
 .tab-pane td, .tab-pane th {
 	padding: 3px;
-	width: 30px;
 }
 .tab-pane th {
 	height: 25px;
@@ -1031,27 +1031,147 @@ select.pref{padding: 4px;
 
 
 
+/* tab menu table */
+.ryokinm , .ryokinm td, .ryokinm th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+	font-weight: 600;
+	font-size: .88em;
+}
+table.ryokinm:nth-of-type(2) td,  table.ryokinm:nth-of-type(2) th {
+	border: 1px solid #595959;
+}
+.ryokinm td:not(:first-child) 
+,.ryokinm:nth-of-type(2) td
+{
+	font-size: .9em;
+}
+.ryokinm:nth-of-type(1) tr td:not(:first-of-type){
+	width: 16.2%;;
+}
+.ryokinm tr:nth-of-type(2) td:nth-of-type(2){
+}
 
 
+.ryokinm td, .ryokinm th {
+	padding: 0px;
+	min-width: 30px;
+	height: 25px;
+
+}
+.ryokinm th {
+	background: #f0e6cc;
+}
+
+.flets-logo-m{ height:1.6em;    margin-right: 12px;
+}
+.ryokinm:nth-of-type(2) .flets-logo-m{ height:1.2em;}
+.tab-pane .prc-red{color:#e90a01 ;}
 
 
+strong.hoshi2{font-weight:bold;float:right}
 
+h4.getugak{    background: #dd687d;
+	font-size: 1.3em;
+	color: #fff;
+	padding: 9px 0 6px 19px;
+	text-align: left;
+	border-radius: 5px;
+}
+.getugak span{margin-right: 1.5em;
+	text-shadow: 1px 1px 1px #282828;
+}
+h4.getugak:nth-of-type(2){margin-top: 51px;
+}
 
+.ryokinm .fz-ss{    font-size: .67em;
+	letter-spacing: -1px;font-weight: 600;line-height: 1.7em;
+	display: inline-block;
+}
+.tab-pane  table.ryokinm:nth-of-type(2) td {
+	text-align: center;
+}
+table.ryokinm:nth-of-type(2) tr:nth-of-type(3) td{
+	width: 7.7%; 	background-color: #fffbf0;
+}
+.ryokinm tr:nth-of-type(3) td:not(:nth-of-type(1))
+,.ryokinm tr:nth-of-type(4) td:not(:nth-of-type(1))
+,.ryokinm:not(.mns) tr:nth-of-type(5) td:not(:nth-of-type(1))
+,.mns:nth-of-type(1) tr td:nth-of-type(3)
+,.mns:nth-of-type(1) tr:nth-of-type(6) td:nth-of-type(2)
+,.mns:nth-of-type(1) tr:nth-of-type(7) td:nth-of-type(2)
+,.mns:nth-of-type(1) tr:nth-of-type(9) td:nth-of-type(2)
+,.mns:nth-of-type(1) tr:nth-of-type(10) td:nth-of-type(2)
+{
+	font-family: "游ゴシック", "Yu Gothic","游ゴシック体", YuGothic;
+	font-size: 1.1em;
+}
+.ryokinm:nth-of-type(1) tr:nth-of-type(3) td:not(:nth-of-type(1)):after
+,.ryokinm tr:nth-of-type(4) td:not(:nth-of-type(1)):after
+,.ryokinm:not(.mns) tr:nth-of-type(5) td:not(:nth-of-type(1)):after
+,.mns:nth-of-type(1) tr td:nth-of-type(3):after
+,.mns:nth-of-type(1) tr:nth-of-type(6) td:nth-of-type(2):after
+,.mns:nth-of-type(1) tr:nth-of-type(7) td:nth-of-type(2):after
+,.mns:nth-of-type(1) tr:nth-of-type(9) td:nth-of-type(2):after
+,.mns:nth-of-type(1) tr:nth-of-type(10) td:nth-of-type(2):after
+{ content:"円";
+   font-size: .9em;
+}
+.ryokinm td.bgf
+,.mns  tr:nth-of-type(2) td:nth-of-type(1)
+,.mns  tr:nth-of-type(5) td:nth-of-type(1)
+,.mns  tr:nth-of-type(8) td:nth-of-type(1)
+,.mns  tr:nth-of-type(11) td:nth-of-type(1)
+,.mns  tr:nth-of-type(12) td:nth-of-type(1)
+,.mns  tr:nth-of-type(12) td:nth-of-type(2)
+{ background-color: #fffbf0;
+}
+.ryokinm .pr{overflow: unset;}
+.circle-t{width: 10px;
+	position: absolute;z-index: 9;
+	}
+ 
+ table.mns:nth-of-type(2) tr:nth-of-type(4) td:nth-of-type(1){
+	 width: 29%;
+ } 
+table.mns tr:nth-of-type(4) td:nth-of-type(2)
+{width: 5%;}
 
+.mns:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(1)
+,.mns:nth-of-type(1) tr:nth-of-type(5) td:nth-of-type(1)
+,.mns:nth-of-type(1) tr:nth-of-type(8) td:nth-of-type(1)
+{text-align: left;padding-left: 1em;}
 
+table.mns:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(3)
+,table.mns:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(4)
+,table.mns:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(5)
+,table.mns:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(6)
+,table.mns:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(7)
+,table.mns:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(8)
+{
+	width: 6.9%;
+}
 
+table.mns:nth-of-type(2) tr:nth-of-type(3) td:not(:last-of-type)
+{width: 6.9%;}
 
-
-
-
-
-
-
-
-
-
-
-
+,table.mns:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(5)
+,table.mns:nth-of-type(1) tr:nth-of-type(3) td:nth-of-type(3)
+,table.mns:nth-of-type(1) tr:nth-of-type(4) td:nth-of-type(4)
+,table.mns:nth-of-type(1) tr:nth-of-type(4) td:nth-of-type(7)
+,table.mns:nth-of-type(1) tr:nth-of-type(5) td:nth-of-type(6)
+,table.mns:nth-of-type(1) tr:nth-of-type(6) td:nth-of-type(3)
+,table.mns:nth-of-type(1) tr:nth-of-type(6) td:nth-of-type(6)
+,table.mns:nth-of-type(1) tr:nth-of-type(7) td:nth-of-type(4)
+,table.mns:nth-of-type(1) tr:nth-of-type(7) td:nth-of-type(7)
+,table.mns:nth-of-type(1) tr:nth-of-type(8) td:nth-of-type(6)
+,table.mns:nth-of-type(1) tr:nth-of-type(9) td:nth-of-type(3)
+,table.mns:nth-of-type(1) tr:nth-of-type(9) td:nth-of-type(6)
+,table.mns:nth-of-type(1) tr:nth-of-type(10) td:nth-of-type(4)
+,table.mns:nth-of-type(1) tr:nth-of-type(10) td:nth-of-type(7)
+,table.mns:nth-of-type(1) tr:nth-of-type(11) td:nth-of-type(3)
+,table.mns:nth-of-type(1) tr:nth-of-type(11) td:nth-of-type(6)
+{border-right:solid 2px #e90a01;}
 
 
 
