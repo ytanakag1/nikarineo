@@ -100,15 +100,17 @@
 					<tbody>
 						<tr>
 							<td colspan="2" rowspan="2" style="width:35%; font-size: 1em;">インターネット接続サービス</td>
+							<td rowspan="2" class="r-boder"> 光ネオEXA料金<br>(一年目以降～)</td>
 							<td style="">[フレッツ光]の利用年数</td>
-							<td style="background: #e06000;color: #fff;border-right: solid 2px #e90a01">1年目	</td>
-							<td class="pr" style="background: #e06000;color: #fff;border-right: solid 2px #e90a01">2年目
-								<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left: 149px;" alt=""></td>
+							<td class="r-boder">1年目	</td>
+							<td class="pr r-boder">2年目
+								<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left: 119px;" alt=""></td>
 							<td>3年目以降~</td>
 						</tr>
+							 
 						<tr>
 							<td style="font-size: 1em;padding: 0 17px;line-height: 1.1em;">各種割引サービスを適用しない場合</td>
-							<td colspan="2" style="background: #e06000;color: #fff;border-right: solid 2px #e90a01">(2年割)</td>
+							<td colspan="2" class="r-boder">(2年割)</td>
 							<td> </td>
 						</tr>
 					
@@ -118,6 +120,7 @@
 								<span>ファミリーハイスピードタイプ／</span><br>
 								<span style="margin-left:135px;">ファミリータイプ</span>
 							</td>
+							<td class="bgf prc-red r-br"> 4,500</td>
 							<td>5,200</td>
 							<td class="bgf prc-red">4,500</td>
 							<td class="bgf prc-red" style="border-right: solid 2px #e90a01">4,500</td>
@@ -128,6 +131,7 @@
 								<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
 								ファミリー・ギガラインタイプ<br>
 							</td>
+							<td class="bgf prc-red r-br"> 4,700</td>
 							<td>5,400</td>
 							<td class="bgf prc-red">4,700</td>
 							<td class="bgf prc-red" style="border-right: solid 2px #e90a01">4,700</td>
@@ -138,6 +142,7 @@
 								<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
 								ファミリー・ギガスマートタイプ<br>
 							</td>
+							<td class="bgf prc-red r-br"> 5,000</td>
 							<td>5,700</td>
 							<td class="bgf prc-red">5,000</td>
 							<td class="bgf prc-red" style="border-right: solid 2px #e90a01">5,000</td>
@@ -150,74 +155,44 @@
 
 
 				<h4 class="getugak"><span>月額利用料<small>(月初日適用の場合)</small></span>西日本版</h4>						
-
 				<table class="ryokinm">
-				<tbody>
-					<tr>
-						<td colspan="2" rowspan="3" style="width:31%; font-size: 1em;">FTTHアクセスサービス</td>
-						<td rowspan="3" style="width:8%;text-align:.9em;font-size: .85em;">各種割引<br>サービスを<br>適用しない場合</td>
-						<td colspan="8" style=" background: #dd217f; color: #fff;">[光もっと割]のご利用年数 ( )は割引適用期間</td>
-					</tr>
-					<tr>
-						<td class="fpr">(2年割)
-							<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left:67px;" alt="">
-						</td>
-						<td colspan="3" class="pr">(3年割)
-							<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left:213px;" alt="">
-						</td>
-						<td colspan="3" class="pr">(3年割)
-							<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left:213px;" alt="">
-						</td>
-						<td class="pr">(3年間毎)
-							<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left:67px;" alt="">
-						</td>
-					</tr>
-					<tr>
-						<td>1-2年目</td>
-						<td>3年目</td>
-						<td>4年目</td>
-						<td>5年目</td>
-						<td>6年目</td>
-						<td>7年目</td>
-						<td>8年目</td>
-						<td>9年目以降~</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="pr bgf" style="text-align:left;  padding-left: 84px;    letter-spacing: -1px;">
-						<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m" style="position: absolute;top: 17px;left: 2px;">
-			ファミリー･スーパーハイスピードタイプ 隼／<br>
-			ファミリー･ハイスピードタイプ／<br>
-			ファミリータイプ<br>
-				</td>
-						<td>3,250</td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-		
-					<tr>
-						<td colspan="2" class="bgf" style=" text-align: left;">
-						<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
-						ファミリータイプ
-						</td>
-						<td>3,250</td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-				
-				</tbody>
-			</table>
+					<tbody>
+						<tr>
+							<td colspan="2" rowspan="2" style="width:35%; font-size: 1em;">FTTHアクセスサービス</td>
+							<td rowspan="2" class="r-boder">光ネオEXA料金<br>(一年目以降～)</td>
+							<td style="">[フレッツ光]の利用年数</td>
+							<td style="background: #dd217f;color: #fff;border-right: solid 2px #e90a01">1年目	</td>
+							<td class="pr" style="background: #dd217f;color: #fff;border-right: solid 2px #e90a01">2年目
+								<img src="<?=$img?>circl-t16.png" class="circle-t" style="   left: 119px;" alt=""></td>
+							<td>3年目以降~</td>
+						</tr>
+
+						<tr>
+					
+							<td style="font-size: 1em;padding: 0 17px;line-height: 1.1em;">各種割引サービスを適用しない場合</td>
+							<td colspan="2" style="background: #dd217f;color: #fff;border-right: solid 2px #e90a01">(はじめ割)</td>
+							<td> </td>
+						</tr>
+					
+						<tr>
+							<td colspan="2" class="pr bgf" style="letter-spacing: -1px;text-align: left;background: #fffbf0;">
+								<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
+								<span  style="margin-left: 29px;">ファミリータイプ／</span><br>
+								<span style="margin-left: 96px;">ファミリーハイスピードタイプ／</span><br>
+								<span style="margin-left: 96px;">ファミリー･スーパーハイスピードタイプ 隼</span>
+							</td>
+							<td class="bgf prc-red r-br">4,300</td>
+							<td>5,400</td>
+							<td class="bgf prc-red">4,300</td>
+							<td class="bgf prc-red" style="border-right: solid 2px #e90a01">4,300</td>
+							<td>4,110</td>
+						</tr>
+					
+					</tbody>
+				</table>
+
+
+
 
 
 
