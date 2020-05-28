@@ -1032,7 +1032,8 @@ select.pref{padding: 4px;
 
 
 /* tab menu table */
-.ryokinm , .ryokinm td, .ryokinm th {
+.ryokinm , .ryokinm td, .ryokinm th
+,.msw td {
 	border: 1px solid #595959;
 	border-collapse: collapse;
 	font-weight: 600;
@@ -1046,7 +1047,7 @@ table.ryokinm:nth-of-type(2) td,  table.ryokinm:nth-of-type(2) th {
 {
 	font-size: .9em;
 }
-.ryokinm tr td:not(:first-of-type){
+.ryokinm:not(.msw) tr td:not(:first-of-type){
 	width:13%;
 }
 table.ryokinm .r-boder{
@@ -1069,6 +1070,12 @@ table.ryokinm .r-boder{
 .flets-logo-m{ height:1.6em;    margin-right: 12px;
 }
 .tab-pane .prc-red{color:#e90a01 ;}
+
+#mansion table.msw:nth-of-type(2) tr:nth-of-type(1) td:not(:first-of-type) {
+	width: 12%;
+}
+
+
 
 
 strong.hoshi2{font-weight:bold;float:right}
@@ -1094,7 +1101,7 @@ h4.getugak:nth-of-type(2){margin-top: 51px;
 	text-align: center;
 }
  
-.ryokinm tr:nth-of-type(3) td:not(:nth-of-type(1))
+.ryokinm:not(.msw) tr:nth-of-type(3) td:not(:nth-of-type(1))
 ,.ryokinm tr:nth-of-type(4) td:not(:nth-of-type(1))
 ,.ryokinm:not(.mns) tr:nth-of-type(5) td:not(:nth-of-type(1))
 ,.mns:nth-of-type(1) tr td:nth-of-type(3)
@@ -1114,9 +1121,14 @@ h4.getugak:nth-of-type(2){margin-top: 51px;
 ,.mns:nth-of-type(1) tr:nth-of-type(7) td:nth-of-type(2):after
 ,.mns:nth-of-type(1) tr:nth-of-type(9) td:nth-of-type(2):after
 ,.mns:nth-of-type(1) tr:nth-of-type(10) td:nth-of-type(2):after
+,.msw tr:nth-of-type(3) td:not(:nth-of-type(1)):not(:nth-of-type(2)):after
+,.msw tr:nth-of-type(6) td:not(:nth-of-type(1)):not(:nth-of-type(2)):after
+,.msw tr:nth-of-type(7) td:not(:nth-of-type(1)):after
+,.msw tr:nth-of-type(8) td:not(:nth-of-type(1)):after
 { content:"円";
    font-size: .9em;
 }
+
 .ryokinm td.bgf
 ,.mns  tr:nth-of-type(2) td:nth-of-type(1)
 ,.mns  tr:nth-of-type(5) td:nth-of-type(1)
@@ -1155,23 +1167,8 @@ table.mns:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(3)
 table.mns:nth-of-type(2) tr:nth-of-type(3) td:not(:last-of-type)
 {width: 6.9%;}
 
-,table.mns:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(5)
-,table.mns:nth-of-type(1) tr:nth-of-type(3) td:nth-of-type(3)
-,table.mns:nth-of-type(1) tr:nth-of-type(4) td:nth-of-type(4)
-,table.mns:nth-of-type(1) tr:nth-of-type(4) td:nth-of-type(7)
-,table.mns:nth-of-type(1) tr:nth-of-type(5) td:nth-of-type(6)
-,table.mns:nth-of-type(1) tr:nth-of-type(6) td:nth-of-type(3)
-,table.mns:nth-of-type(1) tr:nth-of-type(6) td:nth-of-type(6)
-,table.mns:nth-of-type(1) tr:nth-of-type(7) td:nth-of-type(4)
-,table.mns:nth-of-type(1) tr:nth-of-type(7) td:nth-of-type(7)
-,table.mns:nth-of-type(1) tr:nth-of-type(8) td:nth-of-type(6)
-,table.mns:nth-of-type(1) tr:nth-of-type(9) td:nth-of-type(3)
-,table.mns:nth-of-type(1) tr:nth-of-type(9) td:nth-of-type(6)
-,table.mns:nth-of-type(1) tr:nth-of-type(10) td:nth-of-type(4)
-,table.mns:nth-of-type(1) tr:nth-of-type(10) td:nth-of-type(7)
-,table.mns:nth-of-type(1) tr:nth-of-type(11) td:nth-of-type(3)
-,table.mns:nth-of-type(1) tr:nth-of-type(11) td:nth-of-type(6)
-{border-right:solid 2px #e90a01;}
+
+table.ryokinm .dd21{background: #dd217f;color: #fff;border-right: solid 2px #e90a01}
 
 
 

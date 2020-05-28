@@ -109,7 +109,7 @@
 						</tr>
 							 
 						<tr>
-							<td style="font-size: 1em;padding: 0 17px;line-height: 1.1em;">各種割引サービスを適用しない場合</td>
+							<td style="font-size: 1em;padding: 0;line-height: 1.1em;">各種割引サービスを適用しない場合</td>
 							<td colspan="2" class="r-boder">(2年割)</td>
 							<td> </td>
 						</tr>
@@ -169,7 +169,7 @@
 
 						<tr>
 					
-							<td style="font-size: 1em;padding: 0 17px;line-height: 1.1em;">各種割引サービスを適用しない場合</td>
+							<td style="font-size: 1em;padding: 0;line-height: 1.1em;">各種割引サービスを適用しない場合</td>
 							<td colspan="2" style="background: #dd217f;color: #fff;border-right: solid 2px #e90a01">(はじめ割)</td>
 							<td> </td>
 						</tr>
@@ -281,181 +281,83 @@
 					
 					
 <h4 class="getugak"><span>月額利用料<small>(月初日適用の場合)</small></span>西日本版</h4>						
-	
-<table class="ryokinm mns">
-	<tbody>
-		<tr>
-			<td colspan="2" rowspan="3">FTTHアクセスサービス</td>
-			<td rowspan="3"  style=" line-height: 1.1em;">各種割引<br>サービスを<br>適用しない場合</td>
-			<td colspan="8"style=" background: #dd217f; color: #fff;">[光もっと割]のご利用年数 ( )は割引適用期間</td>
-		</tr>
-		<tr>
-			<td class="pr">(2年割)
-			<img src="<?=$img?>circl-t16.png" class="circle-t" style=" left: 59px;" alt=""></td>
-			<td colspan="3" class="pr">(3年割)
-			<img src="<?=$img?>circl-t16.png" class="circle-t" style=" left: 188px;" alt=""></td>
-			<td colspan="3" class="pr">(3年割)
-			<img src="<?=$img?>circl-t16.png" class="circle-t" style=" left: 188px;" alt=""></td>
-			<td class="pr">(3年間毎)
-			<img src="<?=$img?>circl-t16.png" class="circle-t" style=" left: 66px;" alt=""></td>
-		</tr>
-		<tr>
-			<td class="pr">1-2年目
-			</td>
-			<td>3年目</td>
-			<td>4年目</td>
-			<td>5年目</td>
-			<td>6年目</td>
-			<td>7年目</td>
-			<td>8年目</td>
-			<td>9年目以降~</td>
-		</tr>
-		<tr>
-			<td rowspan="3">
-      <img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
-      <strong class="hoshi2">※</strong><br>
-マンション･スーパーハイスピードタイプ 隼／<br>
-マンション･スーパーハイスピードタイプ[ひかり配線方式]<br>
-マンションタイプ[ひかり配線方式][VDSL方式]<br>
-<img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">  マンションタイプ[VDSL方式] 
-   </td>
-			<td>プラン1</td>
-			<td>3,250</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>プラン2</td>
-			<td>2,850</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>ミニ</td>
-			<td>3,850</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td rowspan="3">
-      <strong class="hoshi2">※</strong><br>
-      <img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
-      マンションタイプ[LAN方式] 
-      </td>
-			<td>プラン1</td>
-			<td>3,250</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>プラン2</td>
-			<td>2,850</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>ミニ</td>
-			<td>3,850</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td rowspan="2">
-      <img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
-      <strong class="hoshi2">※</strong><br>
-      マンションタイプ[ひかり配線方式] 
-      </td>
-			<td>プラン1</td>
-			<td>3,450</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>プラン2</td>
-			<td>3,050</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td rowspan="2">
-      <img src="<?=$img?>fletshikari-next.png" class="flets-logo-m">
-      <strong class="hoshi2">※</strong><br>
-      マンションタイプ[LAN方式] 
-      </td>
-			<td>プラン1</td>
-			<td>3,450</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>プラン2</td>
-			<td>3,050</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>		
-					
+		
+	<table class="ryokinm msw">
+		<tbody>
+			<tr>
+				<td colspan="2" rowspan="2">FTTHアクセスサービス</td>
+				<td rowspan="2" class="r-boder">光ネオEXA料金<br>(一年目以降～)</td>
+				<td>[フレッツ光]の利用年数</td>
+				<td class="dd21">1年目	</td>
+				<td  class="dd21">2年目</td>
+				<td>3年目以降~</td>
+			</tr>
+			<tr>
+				<td>各種割引サービスを適用しない場合</td>
+				<td colspan="2" class="dd21">(はじめ割)</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td rowspan="3" class="bgf" style="text-align: left;  padding-left: 12px;">
+				<img src="<?=$img?>/fletshikari-next.png" class="flets-logo-m"> <br>
+				マンション・スーパーハイスピードタイプ 隼/ <br>
+				マンション・ハイスピードタイプ[ひかり配線方式]/ <br>
+				マンションタイプ[ひかり配線方式] [VDSL方式]/ <br>
+				</td>
+				<td>プラン1</td>
+				<td class="bgf prc-red r-br">3,250</td>
+				<td>3,700</td>
+				<td>3,250</td>
+				<td>3,250</td>
+				<td>2,680</td>
+			</tr>
+			<tr>
+				<td>プラン2</td>
+				<td class="bgf prc-red r-br">2,850</td>
+				<td>3,200</td>
+				<td>2,850</td>
+				<td>2,850</td>
+				<td>2,680</td>
+			</tr>
+			<tr>
+				<td>ミニ</td>
+				<td class="bgf prc-red r-br">3,950</td>
+				<td>4,500</td>
+				<td>3,950</td>
+				<td>3,950</td>
+				<td>3,720</td>
+			</tr>
+			<tr>
+				<td rowspan="3" class="bgf" style="text-align: left;  padding-left: 12px;">
+				<img src="<?=$img?>/fletshikari-next.png" class="flets-logo-m"> <br>
+				マンションタイプ[LAN方式]
+				</td>
+				<td>プラン1</td>
+				<td class="bgf prc-red r-br">3,250</td>
+				<td>3,700</td>
+				<td>2,650</td>
+				<td>2,650</td>
+				<td>2,480</td>
+			</tr>
+			<tr>
+				<td>プラン2</td>
+				<td class="bgf prc-red r-br">2,950</td>
+				<td>3,200</td>
+				<td>2,250</td>
+				<td>2,250</td>
+				<td>2,080</td>
+			</tr>
+			<tr>
+				<td>ミニ</td>
+				<td class="bgf prc-red r-br">3,950</td>
+				<td>4,500</td>
+				<td>3,350</td>
+				<td>3,350</td>
+				<td>3,120</td>
+			</tr>
+		</tbody>
+	</table>
+						
 					
 					
 					
